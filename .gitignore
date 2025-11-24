@@ -1,0 +1,24 @@
+# ----- COBOL / GnuCOBOL build artifacts -----
+
+# Object files
+*.o
+
+# Executables (GnuCOBOL often makes extensionless binaries in bin/)
+bin/
+build/
+
+# Generic executables (just in case)
+*.exe
+a.out
+
+# Listing / debug / log files
+*.lst
+*.log
+
+# Micro Focus / other COBOL intermediates (harmless if you never use them)
+*.int
+*.gnt
+
+# macOS cruft
+.DS_Store
+*.dSYM/
