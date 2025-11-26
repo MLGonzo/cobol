@@ -8,9 +8,7 @@
        data division.
        file section.
        fd person-file.
-       01 person-record.
-           05 person-name pic x(30).
-           05 person-age pic 99.
+       copy person-rec.cpy.
        working-storage section.
        01 ws-name pic x(30).
        01 ws-age pic 99.
