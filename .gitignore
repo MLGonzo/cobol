@@ -22,3 +22,5 @@ a.out
 # macOS cruft
 .DS_Store
 *.dSYM/
+
+person.txt
